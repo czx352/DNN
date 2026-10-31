@@ -1,0 +1,28 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+.venv/
+
+# ---------- 大体积模型权重（超过 GitHub 单文件限制 / 可由素材复制） ----------
+# 原始素材目录（含 248MB yolov3.weights、23MB caffemodel），请按实验说明自行放置
+DNN目标检测任务(1)/
+# 实验素材中的 ultralytics 源码，使用 pip 安装的 ultralytics 即可
+ultralytics-main(1)/
+experiment4/models/yolo/yolov3.weights
+experiment4/models/ssd/MobileNetSSD_deploy.caffemodel
+
+# ---------- 数据集图像（体积较大，可运行 06_prepare_dataset.py 重新生成） ----------
+experiment4/dataset/images/
+
+# ---------- 批量推理/训练过程图（仅保留报告所需关键结果） ----------
+experiment4/output/task1_yolo26_cells/
+experiment4/output/task2_predict_val/
+experiment4/output/yolo26n_cells/train_batch*.jpg
+experiment4/output/yolo26n_cells/val_batch0*.jpg
+experiment4/output/yolo26n_cells/weights/last.pt
+
+# ---------- 其他 ----------
+runs/
+Thumbs.db
+.DS_Store
+experiment4.zip

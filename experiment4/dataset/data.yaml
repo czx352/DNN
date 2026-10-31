@@ -1,0 +1,5 @@
+path: E:/xx1/11/experiment4/dataset
+train: images/train
+val: images/val
+names:
+  0: cell
